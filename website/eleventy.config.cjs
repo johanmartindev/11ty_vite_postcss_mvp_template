@@ -21,23 +21,10 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter);
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
-      publicDir: 'public',
-			clearScreen: false,
-			server: {
-				mode: 'development',
-				middlewareMode: true,
-			},
-			appType: 'custom',
+			clearScreen: true,
       build: {
         sourcemap: 'true',
         manifest: true
-      },
-      css: {
-        postcss: {
-          plugins: [
-            autoprefixer()
-          ]
-        }
       }
     },
     serverOptions: {
