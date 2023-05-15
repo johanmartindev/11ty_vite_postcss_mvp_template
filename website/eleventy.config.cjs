@@ -37,9 +37,9 @@ module.exports = function(eleventyConfig) {
   return {
     templateFormats: ["md", "html", "liquid", "njk"],
     dir: {
-      layouts: 'src/layouts',
-      includes: 'src/includes',
-      output: 'dist'
+      input: 'src',
+      layouts: 'layouts',
+      includes: 'includes'
     }
   }
 };
