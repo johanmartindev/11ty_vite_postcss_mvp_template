@@ -17,7 +17,7 @@ const postcssFilter = (cssCode, done) => {
 };
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({'src/assets/': 'assets'});
+  eleventyConfig.addPassthroughCopy({'src/assets/images': 'assets/images'});
   eleventyConfig.addWatchTarget('./includes/css/*.css');
 	eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter);
   eleventyConfig.addPlugin(EleventyVitePlugin, {
@@ -29,8 +29,7 @@ module.exports = function(eleventyConfig) {
       }
     },
     serverOptions: {
-      port: 8000,
-      watch: ["src/**/*.css"],
+      port: 8000
     }
   });
 

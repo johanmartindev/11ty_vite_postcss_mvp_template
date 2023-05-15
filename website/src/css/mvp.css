@@ -503,3 +503,31 @@ blockquote footer {
     line-height: var(--line-height);
     padding: 1.5rem 0;
 }
+.hero {
+    display: block;
+}
+
+/* hero */
+.hero header {
+    display: grid;
+    grid-template-areas: "hero";
+    height: 65vh;
+    max-height: 600px;
+    > * {
+        grid-area: hero;
+      }
+  }
+
+  .hero img {
+    object-fit: cover;
+    object-position: 5vw -5vmin;
+    height: min(65vh, 600px);
+    width: 60%;
+    justify-content: end;
+  }
+
+  .hero__content {
+    margin-left: 5%;
+    max-width: 35%;
+    min-width: 30ch;
+  }
