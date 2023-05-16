@@ -1,15 +1,56 @@
+section, header, footer, nain {
+  padding: 0;
+}
 .tutorial {
   & div {
-    background-color: #eee;
-    display: block;
-    border: 1px solid #000;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    width: 500px;
+    border: 1px solid black;
   }
-  & h1 {
-    margin: 0;
-    padding: 0;
-    display: block;
-    background-color: #eee;
-    border: 1px solid #ddd;
+  .item {
+    width: 300px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .item,
+  .item2,
+  .item3 {
+    background-color: purple;
+    font-size: 3em;
+    color: white;
+  }
+  .item2 {
+    background: sky blue;
+  }
+  .item3 {
+    background: orange red;
   }
 }
+main {
+  & * { margin: 0;
+        padding: 0;
+  }
+
+  & header h2 {
+    text-align: left;
+  }
+  & header p {
+    text-align: left;
+    text-decoration: underline;
+  }
+  & div {
+    display: flex;
+    flex-direction: row;
+  }
+  & figure img {
+    height: 400px;
+    width: 50%;
+  }
+  & figure img:hover {
+    width: 100%;
+  }
+}
+
