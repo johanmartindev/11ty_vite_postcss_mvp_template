@@ -23,8 +23,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
 			clearScreen: true,
+      server: {
+        mode: 'development',
+        middlewareMode: true
+      },
       build: {
-        sourcemap: 'true',
+        mode: 'production',
+        sourcemap: true,
         manifest: true
       }
     },

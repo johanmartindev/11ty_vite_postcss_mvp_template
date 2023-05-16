@@ -9,8 +9,7 @@ Trying to create a basic template for generating new websites. Goal is for stati
 ### Eleventy Configuration
 * 11ty with vite - https://github.com/11ty/eleventy-plugin-vite
 * Eleventy: Integrate PostCSS and Tailwind CSS - https://zenzes.me/eleventy-integrate-postcss-and-tailwind-css/
-#### Vite Config
-* https://stackoverflow.com/questions/71415014/how-to-use-autoprefixer-with-vitejs-and-react
+* https://github.com/matthiasott/eleventy-plus-vite
 
 ## CSS Framework
 * https://andybrewer.github.io/mvp/
