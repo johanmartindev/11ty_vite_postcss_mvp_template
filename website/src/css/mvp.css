@@ -503,11 +503,12 @@ blockquote footer {
     line-height: var(--line-height);
     padding: 1.5rem 0;
 }
+
+/* hero */
 .hero {
     display: block;
 }
 
-/* hero */
 .hero header {
     display: grid;
     grid-template-areas: "hero";
