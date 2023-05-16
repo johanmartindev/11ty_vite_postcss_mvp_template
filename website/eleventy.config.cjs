@@ -1,11 +1,11 @@
 const EleventyVitePlugin = require("@11ty/eleventy-plugin-vite");
-const autoprefixer = require("autoprefixer");
 const postCss = require('postcss');
+const postcssPresetEnv = require('postcss-preset-env');
 const cssnano = require('cssnano');
 
 const postcssFilter = (cssCode, done) => {
 	// we call PostCSS here.
-	postCss([ autoprefixer(), cssnano({ preset: 'default' })])
+	postCss([ postcssPresetEnv(), cssnano({ preset: 'default' })])
 		.process(cssCode, {
 			// path to our CSS file
 			from: 'styles.css'

@@ -14,3 +14,6 @@ Trying to create a basic template for generating new websites. Goal is for stati
 
 ## CSS Framework
 * https://andybrewer.github.io/mvp/
+
+## PostCSS
+* Added nesting - https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting#readme
