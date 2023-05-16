@@ -1,5 +1,13 @@
 .tutorial {
+  & div {
+    background-color: #eee;
+    display: block;
+    border: 1px solid #000;
+    width: 100%;
+  }
   & h1 {
+    margin: 0;
+    padding: 0;
     display: block;
     background-color: #eee;
     border: 1px solid #ddd;

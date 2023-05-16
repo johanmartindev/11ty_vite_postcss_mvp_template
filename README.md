@@ -16,4 +16,5 @@ Trying to create a basic template for generating new websites. Goal is for stati
 * https://andybrewer.github.io/mvp/
 
 ## PostCSS
-* Added nesting - https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting#readme
+* postcss-preset-env - https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env
+* https://github.com/browserslist/browserslist
