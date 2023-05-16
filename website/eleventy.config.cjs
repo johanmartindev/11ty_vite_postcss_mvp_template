@@ -8,7 +8,7 @@ const postcssFilter = (cssCode, done) => {
 	postCss([ autoprefixer(), cssnano({ preset: 'default' })])
 		.process(cssCode, {
 			// path to our CSS file
-			from: './includes/css/mvp.css'
+			from: 'styles.css'
 		})
 		.then(
 			(r) => done(null, r.css),
@@ -18,7 +18,7 @@ const postcssFilter = (cssCode, done) => {
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'src/assets/images': 'img'});
-  eleventyConfig.addWatchTarget('./includes/css/*.css');
+  eleventyConfig.addWatchTarget('src/**/*.css');
 	eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter);
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
