@@ -1,0 +1,14 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.resolveGlobalModules": true,
+  "emmet.includeLanguages": {
+    "nunjucks": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "wordWrapColumn",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right"
+}
