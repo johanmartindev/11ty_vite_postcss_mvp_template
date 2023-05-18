@@ -1,19 +1,16 @@
-# Basic HTML 5 Template for a website
-* Will be used as the basis for creating new sites.
-* Need something basic to learn on.
-Trying to create a basic template for generating new websites. Goal is for static websites without a backend. Can be connected to a backend later.
+# 11ty Template with Vite, Postcss and mvp.css
 ## Getting Started
-* 11ty - Static Site Generator
-  * Should be able to generate some html for me. Does not have to be dynamic.
-
+1. Create repository using this repository as a template
+2. Clone and `cd website`
+3. Run `npm start`
+4. Start building
+## Resources
+* 11ty - https://www.11ty.dev
+* CSS Framework - https://andybrewer.github.io/mvp/
+* PostCSS - postcss-preset-env - https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env
+  * https://github.com/browserslist/browserslist
 ### Eleventy Configuration
 * 11ty with vite - https://github.com/11ty/eleventy-plugin-vite
 * Eleventy: Integrate PostCSS and Tailwind CSS - https://zenzes.me/eleventy-integrate-postcss-and-tailwind-css/
 * https://github.com/matthiasott/eleventy-plus-vite
 
-## CSS Framework
-* https://andybrewer.github.io/mvp/
-
-## PostCSS
-* postcss-preset-env - https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env
-* https://github.com/browserslist/browserslist
