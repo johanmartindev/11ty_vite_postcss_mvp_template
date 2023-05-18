@@ -1,0 +1,65 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+  "name": "Node.js & TypeScript",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-20",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "okitavera.vscode-nunjucks-formatter",
+        "ronnidc.nunjucks",
+        "aliariff.auto-add-brackets",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "mrmlnc.vscode-duplicate",
+        "EditorConfig.EditorConfig",
+        "ahmadawais.emoji-log-vscode",
+        "ms-vscode.live-server",
+        "csstools.postcss",
+        "esbenp.prettier-vscode",
+        "albert.TabOut",
+        "meganrogge.template-string-converter",
+        "qcz.text-power-tools",
+        "Gruntfuggly.todo-tree",
+        "shardulm94.trailing-spaces",
+        "jrebocho.vscode-random"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "prettier.resolveGlobalModules": true,
+        "emmet.includeLanguages": {
+          "nunjucks": "html"
+        },
+        "emmet.showAbbreviationSuggestions": true,
+        "emmet.showSuggestionsAsSnippets": true,
+        "editor.formatOnSave": true,
+        "files.autoSave": "afterDelay",
+        "editor.wordWrap": "bounded",
+        "terminal.integrated.defaultProfile.osx": "zsh",
+        "workbench.iconTheme": "vscode-icons",
+        "workbench.sideBar.location": "right"
+      }
+    }
+  }
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "yarn install",
+
+  // Configure tool-specific properties.
+  // "customizations": {},
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
