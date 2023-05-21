@@ -36,6 +36,7 @@
         "emmet.includeLanguages": {
           "nunjucks": "html"
         },
+        "emmet.triggerExpansionOnTab": true,
         "emmet.showAbbreviationSuggestions": true,
         "emmet.showSuggestionsAsSnippets": true,
         "editor.formatOnSave": true,
