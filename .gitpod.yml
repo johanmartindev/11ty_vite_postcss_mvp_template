@@ -1,0 +1,31 @@
+# List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
+tasks:
+  - name: Setup
+    init: npm i -g @frctl/fractal # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
+vscode:
+  extensions:
+    - okitavera.vscode-nunjucks-formatter
+    - ronnidc.nunjucks
+    - aliariff.auto-add-brackets
+    - formulahendry.auto-close-tag
+    - formulahendry.auto-rename-tag
+    - mrmlnc.vscode-duplicate
+    - editorconfig.editorconfig
+    - ahmadawais.emoji-log-vscode
+    - ms-vscode.live-server
+    - csstools.postcss
+    - esbenp.prettier-vscode
+    - albert.tabout
+    - meganrogge.template-string-converter
+    - qcz.text-power-tools
+    - gruntfuggly.todo-tree
+    - shardulm94.trailing-spaces
+    - jrebocho.vscode-random
+github:
+  prebuilds:
+    addBadge: true
+    prebuilds: addComment
+    branches: false
+    master: false
+image:
+  file: .gitpod.Dockerfile
