@@ -4,23 +4,26 @@ tasks:
     init: npm i -g @frctl/fractal # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
 vscode:
   extensions:
-    - okitavera.vscode-nunjucks-formatter
-    - ronnidc.nunjucks
+    - ahmadawais.emoji-log-vscode
+    - albert.tabout
     - aliariff.auto-add-brackets
+    - chrmarti.regex
+    - csstools.postcss
+    - donjayamanne.githistory
+    - editorconfig.editorconfig
+    - esbenp.prettier-vscode
     - formulahendry.auto-close-tag
     - formulahendry.auto-rename-tag
-    - mrmlnc.vscode-duplicate
-    - editorconfig.editorconfig
-    - ahmadawais.emoji-log-vscode
-    - ms-vscode.live-server
-    - csstools.postcss
-    - esbenp.prettier-vscode
-    - albert.tabout
-    - meganrogge.template-string-converter
-    - qcz.text-power-tools
     - gruntfuggly.todo-tree
-    - shardulm94.trailing-spaces
     - jrebocho.vscode-random
+    - meganrogge.template-string-converter
+    - mrmlnc.vscode-duplicate
+    - ms-vscode.live-server
+    - okitavera.vscode-nunjucks-formatter
+    - pnp.polacode
+    - qcz.text-power-tools
+    - ronnidc.nunjucks
+    - shardulm94.trailing-spaces
 github:
   prebuilds:
     addBadge: true
