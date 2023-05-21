@@ -24,7 +24,7 @@ vscode:
 github:
   prebuilds:
     addBadge: true
-    prebuilds: addComment
+    addComment: true
     branches: false
     master: false
 image:
