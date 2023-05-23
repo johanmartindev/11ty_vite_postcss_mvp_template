@@ -1,1 +1,12 @@
-{"name":"design","version":"0.1.0","dependencies":{"@frctl/fractal":"^1.5.15"},"scripts":{"fractal:start":"fractal start --sync","fractal:build":"fractal build"}}
+{
+  "name": "design",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/fractal": "^1.5.15",
+    "@frctl/nunjucks": "^2.0.15"
+  },
+  "scripts": {
+    "fractal:start": "fractal start --sync",
+    "fractal:build": "fractal build"
+  }
+}
