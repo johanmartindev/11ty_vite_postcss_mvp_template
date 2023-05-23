@@ -3,6 +3,7 @@ permalink: styles.css
 ---
 @charset "UTF-8";
 {% set css %}
+{% include "./css/mvp.css" %}
 {% include "./css/local.css" %}
 {% endset %}
 {{css | postcss | safe}}
