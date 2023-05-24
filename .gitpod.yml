@@ -1,29 +1,52 @@
 # List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
 tasks:
   - name: Setup
-    init: npm i -g @frctl/fractal npm@latest # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
+    init: |
+      npm i -g @frctl/fractal npm@latest
+      npm install --save-dev --save-exact prettier
 vscode:
   extensions:
+    - aaron-bond.better-comments
     - ahmadawais.emoji-log-vscode
+    - akamud.vscode-caniuse
     - albert.tabout
     - aliariff.auto-add-brackets
+    - christian-kohler.path-intellisense
     - chrmarti.regex
     - csstools.postcss
+    - dannyconnell.split-html-attributes
+    - dbaeumer.vscode-eslint
     - donjayamanne.githistory
     - editorconfig.editorconfig
     - esbenp.prettier-vscode
+    - firefox-devtools.vscode-firefox-debug
     - formulahendry.auto-close-tag
     - formulahendry.auto-rename-tag
+    - GitHub.copilot
+    - GitHub.remotehub
+    - GitHub.vscode-pull-request-github
     - gruntfuggly.todo-tree
+    - hbenl.vscode-test-explorer
     - jrebocho.vscode-random
     - meganrogge.template-string-converter
+    - mikestead.dotenv
     - mrmlnc.vscode-duplicate
     - ms-vscode.live-server
+    - naumovs.color-highlight
     - okitavera.vscode-nunjucks-formatter
     - pnp.polacode
+    - pranaygp.vscode-css-peek
     - qcz.text-power-tools
+    - redhat.vscode-yaml
     - ronnidc.nunjucks
     - shardulm94.trailing-spaces
+    - streetsidesoftware.code-spell-checker
+    - Zignd.html-css-class-completion
+    - xabikos.JavaScriptSnippets
+    - eriklynd.json-tools
+    - oliversturm.fix-json
+    - johnpapa.vscode-cloak
+
 github:
   prebuilds:
     addBadge: true
