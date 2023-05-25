@@ -44,6 +44,7 @@ vscode:
     - ronnidc.nunjucks
     - shardulm94.trailing-spaces
     - streetsidesoftware.code-spell-checker
+    - stylelint.vscode-stylelint
     - xabikos.JavaScriptSnippets
     - Zignd.html-css-class-completion
 

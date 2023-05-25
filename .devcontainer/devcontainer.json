@@ -50,7 +50,8 @@
 		"hbenl.vscode-test-explorer",
 		"redhat.vscode-yaml",
 		"aaron-bond.better-comments",
-		"ms-vscode.remote-repositories"
+		"ms-vscode.remote-repositories",
+		"stylelint.vscode-stylelint"
 	],
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
