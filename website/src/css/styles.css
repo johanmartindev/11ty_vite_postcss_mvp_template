@@ -119,9 +119,6 @@ h6 {
 }
 
 /* Nav Dropdown */
-.header-nav_list li:hover ul {
-  display: block;
-}
 
 .header-nav_list li ul {
   background: var(--color-bg);
@@ -139,6 +136,10 @@ h6 {
   z-index: 1;
 }
 
+.header-nav_list li:hover ul {
+  display: block;
+}
+
 .header-nav_list li ul::before {
   /* fill gap above to make mousing over them easier */
   content: "";
@@ -154,7 +155,7 @@ h6 {
   text-decoration: none;
 }
 
-.feature {
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: var(--justify-important);
@@ -163,6 +164,7 @@ h6 {
     padding-top: 0;
     width: 100%;
   }
+
   & aside {
     border: 1px solid var(--color-bg-secondary);
     border-radius: var(--border-radius);
@@ -175,4 +177,12 @@ h6 {
   & aside:hover {
     box-shadow: var(--box-shadow) var(--color-bg-secondary);
   }
+}
+
+.hero {
+  background: var(--color-bg-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow) var(--color-shadow);
+  margin: 1rem;
+  padding: 1.25rem;
 }
