@@ -3,7 +3,7 @@ tasks:
   - name: Setup
     init: |
       npm i -g @frctl/fractal npm@latest
-      npm install --save-dev --save-exact prettier
+      npm install -g --save-dev --save-exact prettier stylelint stylelint-config-standard stylelint-config-prettier stylelint-config-recommended
 vscode:
   extensions:
     - aaron-bond.better-comments
