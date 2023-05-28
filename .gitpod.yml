@@ -2,8 +2,7 @@
 tasks:
   - name: Setup
     init: |
-      npm i -g @frctl/fractal npm@latest
-      npm install --save-dev --save-exact prettier
+      npm i -g @frctl/fractal npm@latest prettier
 vscode:
   extensions:
     - aaron-bond.better-comments
@@ -18,6 +17,7 @@ vscode:
     - dbaeumer.vscode-eslint
     - donjayamanne.githistory
     - editorconfig.editorconfig
+    - eriklynd.json-tools
     - esbenp.prettier-vscode
     - firefox-devtools.vscode-firefox-debug
     - formulahendry.auto-close-tag
@@ -27,6 +27,7 @@ vscode:
     - GitHub.vscode-pull-request-github
     - gruntfuggly.todo-tree
     - hbenl.vscode-test-explorer
+    - johnpapa.vscode-cloak
     - jrebocho.vscode-random
     - meganrogge.template-string-converter
     - mikestead.dotenv
@@ -34,6 +35,7 @@ vscode:
     - ms-vscode.live-server
     - naumovs.color-highlight
     - okitavera.vscode-nunjucks-formatter
+    - oliversturm.fix-json
     - pnp.polacode
     - pranaygp.vscode-css-peek
     - qcz.text-power-tools
@@ -41,11 +43,8 @@ vscode:
     - ronnidc.nunjucks
     - shardulm94.trailing-spaces
     - streetsidesoftware.code-spell-checker
-    - Zignd.html-css-class-completion
     - xabikos.JavaScriptSnippets
-    - eriklynd.json-tools
-    - oliversturm.fix-json
-    - johnpapa.vscode-cloak
+    - Zignd.html-css-class-completion
 
 github:
   prebuilds:
