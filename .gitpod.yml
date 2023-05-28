@@ -47,7 +47,6 @@ vscode:
     - stylelint.vscode-stylelint
     - xabikos.JavaScriptSnippets
     - Zignd.html-css-class-completion
-
 github:
   prebuilds:
     addBadge: true
