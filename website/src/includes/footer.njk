@@ -1,17 +1,37 @@
-<footer>
+<footer class="page-footer">
   <section>
     <div>
       <h5>Section 1</h5>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
     </div>
     <div>
       <h5>Section 2</h5>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
     </div>
     <div>
-      {% include "contact.njk" %}
+      <h5>Newsletter Signup</h5>
+      <form>
+        <input type="text" placeholder="Email"/>
+        <textarea placeholder="Email Address"></textarea>
+        <button>Send</button>
+      </form>
     </div>
   </section>
   <section>
     <p>© 2023 Company, Inc. All rights reserved.</p>
+    {% include "contact.njk" %}
     <ul>
       <li>
         <a href="twitter">Twitter</a>
