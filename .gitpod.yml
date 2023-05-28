@@ -2,9 +2,7 @@
 tasks:
   - name: Setup
     init: |
-      export EDITOR="command gp open -w" VISUAL="command gp open -w"
-      cp -f /workspace/ohmyzsh/templates/zshrc.zsh-template ~/.zshrc
-      ln -sf /workspace/ohmyzsh ~/.oh-my-zsh
+      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
       npm i -g @frctl/fractal npm@latest
       npm install -g --save-dev --save-exact prettier stylelint stylelint-config-standard stylelint-config-prettier stylelint-config-recommended
     command: exec zsh
