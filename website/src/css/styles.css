@@ -255,7 +255,9 @@ svg {
   display: flex;
   font-weight: bold;
   justify-content: space-between;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-bg-secondary);
 }
 
 .header-nav_list {
