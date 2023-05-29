@@ -249,6 +249,16 @@ svg {
 
 /* Page Headers */
 
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 1rem 0;
+  list-style: none;
+  background-color: var(--color-bg-secondary);
+  padding: 1rem;
+}
+
 /* Nav */
 .header-nav {
   align-items: center;
