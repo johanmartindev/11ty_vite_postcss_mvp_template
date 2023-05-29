@@ -80,38 +80,6 @@ a:hover {
 }
 
 /* Typography */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: var(--line-height);
-}
-
-h1 {
-  font-size: calc(1.375rem + 1.5vw);
-}
-
-h2 {
-  font-size: calc(1.325rem + 0.9vw);
-}
-
-h3 {
-  font-size: calc(1.3rem + 0.6vw);
-}
-
-h4 {
-  font-size: calc(1.275rem + 0.3vw);
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
 
 /* Quotes */
 blockquote {
@@ -133,48 +101,54 @@ blockquote footer {
 }
 
 /* Tables */
-table {
-  border: 1px solid var(--color-bg-secondary);
-  border-radius: var(--border-radius);
-  border-spacing: 0;
-  display: inline-block;
-  max-width: 100%;
-  overflow-x: auto;
-  padding: 0;
-  white-space: nowrap;
-}
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: var(--justify-important);
 
-table td,
-table th,
-table tr {
-  padding: 0.4rem 0.8rem;
-  text-align: var(--justify-important);
-}
+  & table {
+    border: 1px solid var(--color-bg-secondary);
+    border-radius: var(--border-radius);
+    border-spacing: 0;
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 0;
+    white-space: nowrap;
+  }
 
-table thead {
-  background-color: var(--color-table);
-  border-collapse: collapse;
-  border-radius: var(--border-radius);
-  color: var(--color-bg);
-  margin: 0;
-  padding: 0;
-}
+  & table td,
+  & table th,
+  & table tr {
+    padding: 0.4rem 0.8rem;
+    text-align: var(--justify-important);
+  }
 
-table thead th:first-child {
-  border-top-left-radius: var(--border-radius);
-}
+  & table thead {
+    background-color: var(--color-table);
+    border-collapse: collapse;
+    border-radius: var(--border-radius);
+    color: var(--color-bg);
+    margin: 0;
+    padding: 0;
+  }
 
-table thead th:last-child {
-  border-top-right-radius: var(--border-radius);
-}
+  & table thead th:first-child {
+    border-top-left-radius: var(--border-radius);
+  }
 
-table thead th:first-child,
-table tr td:first-child {
-  text-align: var(--justify-normal);
-}
+  & table thead th:last-child {
+    border-top-right-radius: var(--border-radius);
+  }
 
-table tr:nth-child(even) {
-  background-color: var(--color-accent);
+  & table thead th:first-child,
+  & table tr td:first-child {
+    text-align: var(--justify-normal);
+  }
+
+  & table tr:nth-child(even) {
+    background-color: var(--color-accent);
+  }
 }
 
 hr {
