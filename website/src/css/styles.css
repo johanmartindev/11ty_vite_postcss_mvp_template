@@ -41,6 +41,10 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 [hidden] {
   display: none;
 }
@@ -301,6 +305,23 @@ svg {
 .header-nav_list li a {
   display: block;
   text-decoration: none;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 15px;
+  padding: 15px;
+
+  /* & .column-1 {
+    width: 68%;
+    padding: 2%;
+  }
+
+  & .column-2 {
+    width: 28%;
+    padding: 2%;
+  } */
 }
 
 .cards {
