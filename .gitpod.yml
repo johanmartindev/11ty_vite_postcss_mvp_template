@@ -48,6 +48,12 @@ vscode:
     - stylelint.vscode-stylelint
     - xabikos.JavaScriptSnippets
     - Zignd.html-css-class-completion
+    - howardzuo.vscode-git-tags
+    - GitHub.copilot-labs
+    - oderwat.indent-rainbow
+    - VisualStudioExptTeam.vscodeintellicode
+    - ms-vsliveshare.vsliveshare
+    - vincaslt.highlight-matching-tag
 github:
   prebuilds:
     addBadge: true
