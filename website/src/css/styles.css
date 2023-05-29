@@ -366,21 +366,25 @@ svg {
 }
 
 .hero {
+  display: grid;
   background: var(--color-bg-secondary);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow) var(--color-shadow);
   margin: 1rem;
   padding: 1.25rem;
+  grid-template-columns: 2fr 1fr;
 
-  & div {
-    display: grid;
-  }
+  /* & img {
+    width: 100%;
+  } */
 
-  & blockquote {
+  /* & blockquote {
     width: 45%;
-  }
+  } */
 
-  & img {
-    width: 50%;
-  }
+
+
+  /* & figure {
+    display: block;
+  } */
 }
