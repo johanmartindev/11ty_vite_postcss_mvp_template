@@ -308,21 +308,18 @@ svg {
   text-decoration: none;
 }
 
+.header-nav .button {
+  border: 1px solid var(--color-bg-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  background-color: var(--color-bg-secondary);
+}
+
 .two-column {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 15px;
   padding: 15px;
-
-  /* & .column-1 {
-    width: 68%;
-    padding: 2%;
-  }
-
-  & .column-2 {
-    width: 28%;
-    padding: 2%;
-  } */
 }
 
 .cards {
