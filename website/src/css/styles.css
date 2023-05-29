@@ -327,13 +327,6 @@ svg {
   background-color: var(--color-bg-secondary);
 }
 
-.two-column {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 15px;
-  padding: 15px;
-}
-
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -360,18 +353,22 @@ svg {
 
 /* page footer */
 
-.page-footer section {
+.page-footer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 1.5rem;
+
+  & div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 
   /* stylelint-disable-next-line no-descending-specificity */
   & ul {
     list-style: none;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
   }
 }
 
@@ -415,6 +412,11 @@ svg {
 }
 
 .two-column {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 15px;
+  padding: 15px;
+
   & img {
     width: 100%;
     height: auto;
