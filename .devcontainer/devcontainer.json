@@ -59,7 +59,8 @@
 		"oderwat.indent-rainbow",
 		"VisualStudioExptTeam.vscodeintellicode",
 		"ms-vsliveshare.vsliveshare",
-		"vincaslt.highlight-matching-tag"
+		"vincaslt.highlight-matching-tag",
+		"ecmel.vscode-html-css"
 	],
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",

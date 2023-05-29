@@ -54,6 +54,7 @@ vscode:
     - VisualStudioExptTeam.vscodeintellicode
     - ms-vsliveshare.vsliveshare
     - vincaslt.highlight-matching-tag
+    - ecmel.vscode-html-css
 github:
   prebuilds:
     addBadge: true
