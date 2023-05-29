@@ -2,9 +2,9 @@
 tasks:
   - name: Setup
     init: |
-      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
       npm i -g @frctl/fractal npm@latest
       npm install -g --save-dev --save-exact prettier stylelint stylelint-config-standard stylelint-config-prettier stylelint-config-recommended
+      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
     command: exec zsh
 vscode:
   extensions:
