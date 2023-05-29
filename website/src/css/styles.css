@@ -396,3 +396,27 @@ svg {
     height: auto;
   }
 }
+
+.gallery {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow) var(--color-shadow);
+  margin: 1rem;
+  padding: 1.25rem;
+
+  & div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  & img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.two-column {
+  & img {
+    width: 100%;
+    height: auto;
+  }
+}
