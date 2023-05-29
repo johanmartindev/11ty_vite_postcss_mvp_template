@@ -1,18 +1,23 @@
 ---
 layout: base.njk
 title: Basic Test Site - Home
----
-{% include "header.njk" %}
+---x
+<header>
+  {% include "top_nav.njk" %}
+</header>
 <main>
-  {% include "two_column.njk" %}
-  <hr>
-  {% include "cards.njk" %}
-  <hr>
   {% include "hero.njk" %}
   <hr>
   {% include "gallery.njk" %}
   <hr>
+  {% include "two_column.njk" %}
+  <hr>
+  {% include "cards.njk" %}
+  <hr>
   {% include "table.njk" %}
   <hr>
 </main>
-{% include "footer.njk" %}
+<footer class="page-footer">
+  {% include "footer_large.njk" %}
+  {% include "footer_bottom.njk" %}
+</footer>
