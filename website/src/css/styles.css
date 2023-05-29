@@ -1,7 +1,7 @@
 /* Inspired by: MVP.css v1.12 - https://github.com/andybrewer/mvp */
 :root {
   --active-brightness: 0.85;
-  --body-font-size: 1rem;
+  --body-font-size: 16px;
   --border-radius: 0.375rem;
   --box-shadow: 2px 2px 10px;
   --color-accent: #118bee15;
@@ -302,6 +302,7 @@ svg {
   height: 0.5rem;
 }
 
+.header-nav .button,
 .header-nav_list li a {
   display: block;
   text-decoration: none;
