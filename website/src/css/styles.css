@@ -252,7 +252,7 @@ svg {
 .social-media {
   display: flex;
   justify-content: flex-end;
-  gap: 2rem;
+  gap: 1rem;
   margin: 1rem 0;
   list-style: none;
   background-color: var(--color-bg-secondary);
