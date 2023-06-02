@@ -94,6 +94,8 @@ blockquote {
   max-width: var(--width-card-medium);
   padding: 1.5rem 1rem;
   text-align: var(--justify-important);
+  background-color: var(--color-bg);
+  border-radius: var(--border-radius);
 }
 
 blockquote footer {
@@ -374,18 +376,24 @@ svg {
 
 .hero {
   display: grid;
-  background: var(--color-bg-secondary);
-  border-radius: var(--border-radius);
   box-shadow: var(--box-shadow) var(--color-shadow);
   margin: 1rem;
   padding: 1.25rem;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 15px;
+  border-radius: var(--border-radius);
+  background-color: var(--color-bg-secondary);
 
   & figure {
     border-radius: var(--border-radius);
     border: 1px solid var(--color-bg-secondary);
     padding: 5px;
+    background-color: var(--color-bg);
+  }
+
+  & figcaption {
+    padding-top: 0.5rem;
+    text-align: center;
   }
 
   & img {
