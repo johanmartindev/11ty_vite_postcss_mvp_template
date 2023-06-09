@@ -421,12 +421,12 @@ svg {
 
 .two-column {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
   padding: 15px;
 
   & img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 }
