@@ -4,6 +4,5 @@ permalink: styles.css
 @charset "UTF-8";
 {% set css %}
 {% include "./css/styles.css" %}
-{% include "node_modules/bootstrap-icons/font/bootstrap-icons.min.css" %}
 {% endset %}
 {{css | postcss | safe}}
