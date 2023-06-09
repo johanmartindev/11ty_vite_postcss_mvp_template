@@ -1,4 +1,7 @@
 /* Inspired by: MVP.css v1.12 - https://github.com/andybrewer/mvp */
+
+@import url("~icons/font/bootstrap-icons.min.css");
+
 :root {
   --active-brightness: 0.85;
   --body-font-size: 16px;
