@@ -48,7 +48,7 @@
   box-sizing: border-box;
 }
 
-[hidden] {
+[data-display="hidden"] {
   display: none;
 }
 
@@ -73,6 +73,10 @@ main {
 
 ul {
   list-style: none;
+}
+
+ul li {
+  display: list-item;
 }
 
 /* Links */
@@ -422,11 +426,11 @@ svg {
 
 .page-footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 
-  & .footer-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  & div {
+    flex: 0 0 auto;
   }
 
 }
