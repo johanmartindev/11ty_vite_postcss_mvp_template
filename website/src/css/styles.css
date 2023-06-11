@@ -63,11 +63,16 @@ body {
   padding: 0;
 }
 
+h2, ul,
 footer,
 header,
 main {
   margin: 0 auto;
   max-width: var(--width-content);
+}
+
+ul {
+  list-style: none;
 }
 
 /* Links */
@@ -356,27 +361,6 @@ svg {
   }
 }
 
-/* page footer */
-
-.page-footer {
-  display: flex;
-  justify-content: space-between;
-
-  & div {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  }
-
-  /* stylelint-disable-next-line no-descending-specificity */
-  & ul {
-    list-style: none;
-    padding: 0;
-    /* display: flex; */
-    /* flex-direction: column; */
-  }
-}
-
 .hero {
   display: grid;
   box-shadow: var(--box-shadow) var(--color-shadow);
@@ -432,4 +416,17 @@ svg {
     max-width: 100%;
     height: auto;
   }
+}
+
+/* page footer */
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+
+  & .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
