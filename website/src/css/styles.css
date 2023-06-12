@@ -371,8 +371,7 @@ svg {
 
 .hero {
   box-shadow: var(--box-shadow) var(--color-shadow);
-  /* padding: 1.25rem; */
-  background-color: var(--color-bg-secondary);
+  padding: 0.5rem;
   background-image: url("/img/image-14.jpg");
   background-position: right top;
   border-radius: var(--border-radius);
