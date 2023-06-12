@@ -18,7 +18,7 @@ fractal.set("project.title", "Design");
 /*
  * Tell Fractal where to look for components.
  */
-fractal.components.set("path", path.join(__dirname, "components"));
+fractal.components.set("path", path.join(__dirname, "../website/src/includes"));
 
 /*
  * Tell Fractal where to look for documentation pages.
@@ -28,7 +28,7 @@ fractal.docs.set("path", path.join(__dirname, "docs"));
 /*
  * Tell the Fractal web preview plugin where to look for static assets.
  */
-fractal.web.set("static.path", path.join(__dirname, "public"));
+fractal.web.set("static.path", path.join(__dirname, "../website/_site"));
 
 /*
  * Setup nunjucks
