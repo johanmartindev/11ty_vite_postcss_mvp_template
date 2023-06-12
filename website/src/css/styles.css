@@ -382,15 +382,19 @@ svg {
   box-shadow: var(--box-shadow) var(--color-shadow);
   margin: 1rem;
   padding: 1.25rem;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-flow: dense;
+  grid-auto-rows: 250px;
 
-  & div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-
-  & img {
+  /* & img {
     max-width: 100%;
     height: auto;
+  } */
+
+  & figure {
+    display: block;
   }
 }
 
