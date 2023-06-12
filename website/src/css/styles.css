@@ -63,7 +63,10 @@ body {
   padding: 0;
 }
 
-h2, ul,
+h1,
+h2,
+h3,
+ul,
 footer,
 header,
 main {
@@ -73,6 +76,7 @@ main {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 ul li {
