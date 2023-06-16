@@ -63,9 +63,8 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
+h1,h2,h3,h4,h5,h6,
+p,
 ul,
 footer,
 header,
@@ -424,4 +423,68 @@ svg {
     flex: 0 0 auto;
   }
 
+}
+
+.design-system {
+  & span {
+  font-weight: normal;
+  color: var(--color-text-secondary);
+  }
+
+  & div.colors {
+    margin: 0 auto;
+    max-width: var(--width-content);
+    margin-bottom: 1rem;
+
+    & ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    & li {
+      margin: .15rem;
+      padding: .25rem;
+      border: .1rem solid var(--color-bg-secondary);
+    }
+
+    & li:nth-child(1) {
+      color: var(--color-text);
+    }
+
+    & li:nth-child(2) {
+      color: var(--color-text-secondary);
+    }
+
+    & li:nth-child(3) {
+      background-color: var(--color-bg);
+    }
+
+    & li:nth-child(4) {
+      background-color: var(--color-bg-secondary);
+    }
+
+    & li:nth-child(5) {
+      color: var(--color-accent);
+    }
+
+    & li:nth-child(6) {
+      color: var(--color-secondary-accent);
+    }
+
+    & li:nth-child(8) {
+      background-color: var(--color-shadow);
+    }
+
+    & li:nth-child(9) {
+      background-color: var(--color-table);
+    }
+
+    & li:nth-child(10) {
+      background-color: var(--color-secondary);
+    }
+
+    }
 }
