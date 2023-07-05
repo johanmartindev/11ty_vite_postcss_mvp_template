@@ -2,7 +2,7 @@
 ## Getting Started
 1. Create repository using this repository as a template
 2. Clone and `cd website`
-3. Run `npm start`
+3. Run `npm install && npm start`
 4. Start building
 ## Resources
 * 11ty - https://www.11ty.dev
