@@ -4,6 +4,7 @@ tasks:
     init: |
       npm i -g @frctl/fractal npm@latest
       npm install -g --save-dev --save-exact prettier stylelint stylelint-config-standard stylelint-config-prettier stylelint-config-recommended
+      git config --global --add safe.directory /workspace/11ty_vite_postcss_mvp_template
     command: exec zsh
 vscode:
   extensions:
