@@ -8,14 +8,15 @@ tasks:
 vscode:
   extensions:
     - aaron-bond.better-comments
+    - adpyke.codesnap
     - ahmadawais.emoji-log-vscode
     - akamud.vscode-caniuse
     - albert.tabout
     - aliariff.auto-add-brackets
     - christian-kohler.path-intellisense
-    - chrmarti.regex
     - csstools.postcss
     - dannyconnell.split-html-attributes
+    - DavidAnson.vscode-markdownlint
     - dbaeumer.vscode-eslint
     - donjayamanne.githistory
     - ecmel.vscode-html-css
@@ -26,14 +27,15 @@ vscode:
     - formulahendry.auto-close-tag
     - formulahendry.auto-rename-tag
     - GitHub.copilot
+    - GitHub.copilot-chat
     - GitHub.copilot-labs
     - GitHub.remotehub
+    - github.vscode-github-actions
     - GitHub.vscode-pull-request-github
     - gruntfuggly.todo-tree
     - hbenl.vscode-test-explorer
     - howardzuo.vscode-git-tags
     - johnpapa.vscode-cloak
-    - jrebocho.vscode-random
     - meganrogge.template-string-converter
     - mikestead.dotenv
     - mrmlnc.vscode-duplicate
@@ -43,15 +45,18 @@ vscode:
     - oderwat.indent-rainbow
     - okitavera.vscode-nunjucks-formatter
     - oliversturm.fix-json
-    - pnp.polacode
     - qcz.text-power-tools
     - redhat.vscode-yaml
     - ronnidc.nunjucks
     - shardulm94.trailing-spaces
     - streetsidesoftware.code-spell-checker
     - stylelint.vscode-stylelint
+    - teledemic.branch-warnings
+    - usernamehw.errorlens
     - vincaslt.highlight-matching-tag
     - VisualStudioExptTeam.vscodeintellicode
+    - VisualStudioExptTeam.vscodeintellicode
+    - vitaliymaz.vscode-svg-previewer
     - xabikos.JavaScriptSnippets
     - Zignd.html-css-class-completion
 github:
