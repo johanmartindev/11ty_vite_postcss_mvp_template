@@ -456,15 +456,20 @@ svg {
 
 .image-gallery {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   gap: 1rem;
+
+  & .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
   & figure:hover .overlay {
     transform: scale(1);
   }
 
-  > figure {
-    height: 25vh;
+  & figure {
     position: relative;
     cursor: pointer;
     flex: 1 1 auto;
