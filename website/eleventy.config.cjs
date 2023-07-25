@@ -38,7 +38,8 @@ module.exports = function(eleventyConfig) {
       },
       resolve: {
         alias: {
-          '~icons': path.resolve(__dirname, 'node_modules/bootstrap-icons')
+          '~icons': path.resolve(__dirname, 'node_modules/bootstrap-icons'),
+          '/node_modules': path.resolve(__dirname, 'node_modules')
         }
       }
     }
