@@ -34,13 +34,16 @@ vscode:
     - GitHub.remotehub
     - github.vscode-github-actions
     - GitHub.vscode-pull-request-github
+    - GitHub.vscode-pull-request-github
     - gruntfuggly.todo-tree
     - hbenl.vscode-test-explorer
     - howardzuo.vscode-git-tags
     - johnpapa.vscode-cloak
     - meganrogge.template-string-converter
+    - michelemelluso.code-beautifier
     - mikestead.dotenv
     - mrmlnc.vscode-duplicate
+    - mrmlnc.vscode-scss
     - ms-vscode.live-server
     - ms-vsliveshare.vsliveshare
     - naumovs.color-highlight
