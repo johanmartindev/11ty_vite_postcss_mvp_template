@@ -4,25 +4,12 @@ const postcssPresetEnv = require("postcss-preset-env");
 const cssnano = require("cssnano");
 const path = require("path");
 
-const postcssFilter = (cssCode, done) => {
-  // we call PostCSS here.
-  postCss([postcssPresetEnv(), cssnano({ preset: "default" })])
-    .process(cssCode, {
-      // path to our CSS file
-      from: "styles.css",
-    })
-    .then(
-      (r) => done(null, r.css),
-      (e) => done(e, null)
-    );
-};
-
 module.exports = function (eleventyConfig) {
   eleventyConfig.setServerPassthroughCopyBehavior("copy");
   eleventyConfig.addPassthroughCopy({ "assets/images": "img" });
   eleventyConfig.addPassthroughCopy({ "assets/css": "css" });
   eleventyConfig.addWatchTarget("assets/**/*.scss");
-  eleventyConfig.addNunjucksAsyncFilter("postcss", postcssFilter);
+
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     serverOptions: {
       port: 9090,
@@ -34,6 +21,14 @@ module.exports = function (eleventyConfig) {
         middlewareMode: true,
       },
       appType: "custom",
+      css: {
+        postcss: {
+          plugins: [
+            postcssPresetEnv(),
+            cssnano({ preset: "default" })
+          ]
+        }
+      },
       build: {
         mode: "production",
         sourcemap: true,
