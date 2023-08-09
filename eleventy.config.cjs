@@ -18,10 +18,10 @@ const postcssFilter = (cssCode, done) => {
 };
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setServerPassthroughCopyBehavior('copy');
-  eleventyConfig.addPassthroughCopy({ "src/assets/images": "img" });
-  eleventyConfig.addPassthroughCopy({"src/css": "css"})
-  eleventyConfig.addWatchTarget("src/**/*.scss");
+  eleventyConfig.setServerPassthroughCopyBehavior("copy");
+  eleventyConfig.addPassthroughCopy({ "assets/images": "img" });
+  eleventyConfig.addPassthroughCopy({ "assets/css": "css" });
+  eleventyConfig.addWatchTarget("assets/**/*.scss");
   eleventyConfig.addNunjucksAsyncFilter("postcss", postcssFilter);
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     serverOptions: {

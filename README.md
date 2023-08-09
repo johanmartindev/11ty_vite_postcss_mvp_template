@@ -1,7 +1,6 @@
 # 11ty Template with Vite, Postcss and mvp.css
 ## Getting Started
 1. Create repository using this repository as a template
-2. Clone and `cd website`
 3. Run `npm install && npm start`
 4. Start building
 ## Resources
