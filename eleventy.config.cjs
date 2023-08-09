@@ -20,15 +20,13 @@ module.exports = function (eleventyConfig) {
         mode: "development",
         middlewareMode: true,
       },
-      appType: "custom",
       css: {
+        devSourceMap: true,
         postcss: {
-          plugins: [
-            postcssPresetEnv(),
-            cssnano({ preset: "default" })
-          ]
-        }
+          plugins: [postcssPresetEnv(), cssnano({ preset: "default" })],
+        },
       },
+
       build: {
         mode: "production",
         sourcemap: true,
