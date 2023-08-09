@@ -1,8 +1,0 @@
----
-permalink: styles.css
----
-@charset "UTF-8";
-{% set css %}
-{% include "./css/styles.css" %}
-{% endset %}
-{{css | postcss | safe}}
