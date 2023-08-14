@@ -15,6 +15,7 @@ vscode:
     - dbaeumer.vscode-eslint
     - ecmel.vscode-html-css
     - esbenp.prettier-vscode
+    - gitpod.gitpod-remote-ssh
     - michelemelluso.code-beautifier
     - mrmlnc.vscode-scss
     - oderwat.indent-rainbow
