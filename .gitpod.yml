@@ -9,7 +9,6 @@ tasks:
 vscode:
   extensions:
     - aaron-bond.better-comments
-    - adpyke.codesnap
     - ahmadawais.emoji-log-vscode
     - akamud.vscode-caniuse
     - albert.tabout
@@ -19,29 +18,14 @@ vscode:
     - dannyconnell.split-html-attributes
     - DavidAnson.vscode-markdownlint
     - dbaeumer.vscode-eslint
-    - donjayamanne.githistory
     - ecmel.vscode-html-css
     - editorconfig.editorconfig
     - eriklynd.json-tools
     - esbenp.prettier-vscode
-    - figma.figma-vscode-extension
-    - firefox-devtools.vscode-firefox-debug
     - formulahendry.auto-close-tag
     - formulahendry.auto-rename-tag
-    - GitHub.copilot
-    - GitHub.copilot-chat
-    - GitHub.copilot-labs
-    - GitHub.remotehub
-    - github.vscode-github-actions
-    - GitHub.vscode-pull-request-github
-    - GitHub.vscode-pull-request-github
-    - gruntfuggly.todo-tree
-    - hbenl.vscode-test-explorer
-    - howardzuo.vscode-git-tags
-    - johnpapa.vscode-cloak
     - meganrogge.template-string-converter
     - michelemelluso.code-beautifier
-    - mikestead.dotenv
     - mrmlnc.vscode-duplicate
     - mrmlnc.vscode-scss
     - ms-vscode.live-server
@@ -50,17 +34,12 @@ vscode:
     - oderwat.indent-rainbow
     - okitavera.vscode-nunjucks-formatter
     - oliversturm.fix-json
-    - qcz.text-power-tools
-    - redhat.vscode-yaml
+    - phoenisx.cssvar
     - ronnidc.nunjucks
     - shardulm94.trailing-spaces
     - streetsidesoftware.code-spell-checker
     - stylelint.vscode-stylelint
-    - teledemic.branch-warnings
-    - usernamehw.errorlens
     - vincaslt.highlight-matching-tag
-    - VisualStudioExptTeam.vscodeintellicode
-    - VisualStudioExptTeam.vscodeintellicode
     - vitaliymaz.vscode-svg-previewer
     - xabikos.JavaScriptSnippets
     - Zignd.html-css-class-completion
