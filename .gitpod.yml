@@ -8,23 +8,59 @@ tasks:
     command: exec zsh
 vscode:
   extensions:
+    - aaron-bond.better-comments
+    - adpyke.codesnap
+    - ahmadawais.emoji-log-vscode
     - akamud.vscode-caniuse
+    - albert.tabout
+    - aliariff.auto-add-brackets
+    - christian-kohler.path-intellisense
     - csstools.postcss
     - dannyconnell.split-html-attributes
     - DavidAnson.vscode-markdownlint
     - dbaeumer.vscode-eslint
+    - donjayamanne.githistory
     - ecmel.vscode-html-css
+    - editorconfig.editorconfig
+    - eriklynd.json-tools
     - esbenp.prettier-vscode
-    - gitpod.gitpod-remote-ssh
+    - figma.figma-vscode-extension
+    - firefox-devtools.vscode-firefox-debug
+    - formulahendry.auto-close-tag
+    - formulahendry.auto-rename-tag
+    - GitHub.copilot
+    - GitHub.copilot-chat
+    - GitHub.copilot-labs
+    - GitHub.remotehub
+    - github.vscode-github-actions
+    - GitHub.vscode-pull-request-github
+    - GitHub.vscode-pull-request-github
+    - gruntfuggly.todo-tree
+    - hbenl.vscode-test-explorer
+    - howardzuo.vscode-git-tags
+    - johnpapa.vscode-cloak
+    - meganrogge.template-string-converter
     - michelemelluso.code-beautifier
+    - mikestead.dotenv
+    - mrmlnc.vscode-duplicate
     - mrmlnc.vscode-scss
+    - ms-vscode.live-server
+    - ms-vsliveshare.vsliveshare
+    - naumovs.color-highlight
     - oderwat.indent-rainbow
     - okitavera.vscode-nunjucks-formatter
     - oliversturm.fix-json
-    - phoenisx.cssvar
+    - qcz.text-power-tools
+    - redhat.vscode-yaml
     - ronnidc.nunjucks
+    - shardulm94.trailing-spaces
+    - streetsidesoftware.code-spell-checker
     - stylelint.vscode-stylelint
+    - teledemic.branch-warnings
+    - usernamehw.errorlens
     - vincaslt.highlight-matching-tag
+    - VisualStudioExptTeam.vscodeintellicode
+    - VisualStudioExptTeam.vscodeintellicode
     - vitaliymaz.vscode-svg-previewer
     - xabikos.JavaScriptSnippets
     - Zignd.html-css-class-completion
