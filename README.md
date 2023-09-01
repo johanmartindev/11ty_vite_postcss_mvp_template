@@ -13,3 +13,5 @@
 * Eleventy: Integrate PostCSS and Tailwind CSS - https://zenzes.me/eleventy-integrate-postcss-and-tailwind-css/
 * https://github.com/matthiasott/eleventy-plus-vite
 
+
+## List of basic components to builds
