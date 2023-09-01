@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
-    templateFormats: ["md", "html", "njk"],
+    templateFormats: ["njk"],
     dir: {
       layouts: "_layouts",
       includes: "_includes",
