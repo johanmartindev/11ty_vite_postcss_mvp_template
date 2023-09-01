@@ -1,7 +1,7 @@
 {
-  "name": "website",
-  "version": "1.0.0",
-  "description": "",
+  "name": "eleventy-template-site",
+  "version": "0.0.1",
+  "description": "Basic template for an Eleventy site with Vite, Sass, and Bootstrap Icons",
   "main": "index.js",
   "scripts": {
     "build": "npx @11ty/eleventy",
