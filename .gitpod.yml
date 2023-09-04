@@ -23,8 +23,6 @@ vscode:
     - ecmel.vscode-html-css
     - editorconfig.editorconfig
     - eriklynd.json-tools
-    - esbenp.prettier-vscode
-    - firefox-devtools.vscode-firefox-debug
     - formulahendry.auto-close-tag
     - formulahendry.auto-rename-tag
     - GitHub.copilot
@@ -33,13 +31,11 @@ vscode:
     - GitHub.remotehub
     - github.vscode-github-actions
     - GitHub.vscode-pull-request-github
-    - GitHub.vscode-pull-request-github
     - gruntfuggly.todo-tree
     - hbenl.vscode-test-explorer
     - howardzuo.vscode-git-tags
     - johnpapa.vscode-cloak
     - meganrogge.template-string-converter
-    - michelemelluso.code-beautifier
     - mikestead.dotenv
     - mrmlnc.vscode-duplicate
     - mrmlnc.vscode-scss
@@ -48,20 +44,17 @@ vscode:
     - naumovs.color-highlight
     - oderwat.indent-rainbow
     - okitavera.vscode-nunjucks-formatter
-    - oliversturm.fix-json
+    - pranaygp.vscode-css-peek
     - qcz.text-power-tools
     - redhat.vscode-yaml
     - ronnidc.nunjucks
-    - shardulm94.trailing-spaces
+    - solnurkarim.html-to-css-autocompletion
     - streetsidesoftware.code-spell-checker
     - stylelint.vscode-stylelint
-    - teledemic.branch-warnings
     - usernamehw.errorlens
     - vincaslt.highlight-matching-tag
     - VisualStudioExptTeam.vscodeintellicode
-    - VisualStudioExptTeam.vscodeintellicode
     - vitaliymaz.vscode-svg-previewer
-    - xabikos.JavaScriptSnippets
     - Zignd.html-css-class-completion
 github:
   prebuilds:

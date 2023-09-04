@@ -12,5 +12,6 @@
   "editor.wordWrap": "wordWrapColumn",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "editor.acceptSuggestionOnEnter": "on"
 }
