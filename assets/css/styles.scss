@@ -406,9 +406,10 @@ svg {
 
 /* Cards */
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: var(--justify-important);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--width-card), 1fr));
+  // flex-wrap: wrap;
+  // justify-content: var(--justify-important);
 
   & header {
     padding-top: 0;
