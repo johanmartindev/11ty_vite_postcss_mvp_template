@@ -317,6 +317,14 @@ input[type="submit"][disabled]:hover {
 img,
 svg {
   vertical-align: middle;
+  max-width: 100%;
+}
+
+.button {
+  border: 1px solid var(--color-bg-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  background-color: var(--color-bg-secondary);
 }
 
 /* Page Headers */
@@ -331,77 +339,44 @@ header .social-media {
   padding: 1rem;
 }
 
-/* Navigation */
-header .menu {
-  align-items: center;
-  display: flex;
-  font-weight: bold;
-  justify-content: space-evenly;
+/* Navigation menu */
+header nav.menu {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--color-bg-secondary);
 
-  & li:hover ul {
-    display: block;
-  }
-
-  & li ul li,
-  & li ul a {
-    display: block;
-  }
-
-  & li ul::before {
-    /* fill gap above to make mousing over them easier */
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -0.5rem;
-    height: 0.5rem;
-  }
-
   & ul {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 1rem;
+    min-height: 2.75rem;
     list-style: none;
-    padding: 0;
-  }
-  & li {
-    display: inline-block;
-    margin: 0 0.5rem;
-    position: relative;
-    text-align: left;
+
+    & li {
+      padding: 0 1rem;
+    }
+
+    & :last-child {
+      margin-left: auto;
+    }
   }
 
-  & li ul {
-    background: var(--color-bg-secondary);
+  & ul li ul {
+    background-color: var(--color-bg);
     border: 1px solid var(--color-bg-secondary);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow) var(--color-shadow);
     display: none;
-    height: auto;
-    left: -2px;
-    padding: 0.5rem 1rem;
     position: absolute;
-    top: 1.7rem;
-    white-space: nowrap;
-    width: auto;
-    z-index: 1;
   }
 
-  & li ul li:hover ul {
+  & ul li:hover ul {
     display: block;
-  }
-
-  & .button,
-  .header-nav_list li a {
-    display: block;
-    text-decoration: none;
   }
 
   & .button {
-    border: 1px solid var(--color-bg-secondary);
-    padding: 0.5rem 1rem;
-    border-radius: var(--border-radius);
-    background-color: var(--color-bg-secondary);
+    text-decoration: none;
   }
 }
 
@@ -409,8 +384,6 @@ header .menu {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(var(--width-card), 1fr));
-  // flex-wrap: wrap;
-  // justify-content: var(--justify-important);
 
   & header {
     padding-top: 0;
@@ -589,7 +562,7 @@ header .menu {
 }
 
 /* Tutorial */
-.rwd-tutorial {
+body.rwd-tutorial {
   & img {
     max-width: 100%;
   }
