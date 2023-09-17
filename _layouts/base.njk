@@ -15,7 +15,15 @@
   </head>
 
   <body>
+    <header>
+      {% include "nav.njk" %}
+    </header>
     {{ content | safe }}
+    <footer>
+      {% include "footer_large.njk" %}
+      {% include "footer_bottom.njk" %}
+      {% include "social.njk" %}
+    </footer>
   </body>
 
 </html>
