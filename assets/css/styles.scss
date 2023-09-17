@@ -327,9 +327,7 @@ svg {
   background-color: var(--color-bg-secondary);
 }
 
-/* Page Headers */
-
-header .social-media {
+.social-media {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
@@ -340,9 +338,9 @@ header .social-media {
 }
 
 /* Navigation menu */
-header nav.menu {
+.menu {
   margin-bottom: 2rem;
-  padding-bottom: 1rem;
+  padding: 0 1rem;
   border-bottom: 1px solid var(--color-bg-secondary);
 
   & ul {
