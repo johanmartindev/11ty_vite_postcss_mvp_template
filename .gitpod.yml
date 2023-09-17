@@ -2,7 +2,6 @@
 tasks:
   - name: Setup
     init: |
-      npm i -g npm@latest
       npm install -g --save-dev --save-exact prettier stylelint stylelint-config-standard stylelint-config-prettier stylelint-config-recommended sass
       git config --global --add safe.directory /workspace/11ty_vite_postcss_mvp_template
     command: exec zsh
@@ -23,6 +22,7 @@ vscode:
     - ecmel.vscode-html-css
     - editorconfig.editorconfig
     - eriklynd.json-tools
+    - esbenp.prettier-vscode
     - formulahendry.auto-close-tag
     - formulahendry.auto-rename-tag
     - GitHub.copilot

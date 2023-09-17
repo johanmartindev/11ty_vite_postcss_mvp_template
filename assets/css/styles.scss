@@ -321,7 +321,7 @@ svg {
 
 /* Page Headers */
 
-.social-media {
+header .social-media {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
@@ -332,11 +332,11 @@ svg {
 }
 
 /* Navigation */
-.header-nav {
+header .menu {
   align-items: center;
   display: flex;
   font-weight: bold;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--color-bg-secondary);
@@ -390,20 +390,19 @@ svg {
   & li ul li:hover ul {
     display: block;
   }
-}
 
+  & .button,
+  .header-nav_list li a {
+    display: block;
+    text-decoration: none;
+  }
 
-.header-nav .button,
-.header-nav_list li a {
-  display: block;
-  text-decoration: none;
-}
-
-.header-nav .button {
-  border: 1px solid var(--color-bg-secondary);
-  padding: 0.5rem 1rem;
-  border-radius: var(--border-radius);
-  background-color: var(--color-bg-secondary);
+  & .button {
+    border: 1px solid var(--color-bg-secondary);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    background-color: var(--color-bg-secondary);
+  }
 }
 
 /* Cards */
@@ -590,7 +589,6 @@ svg {
 }
 
 .rwd-tutorial {
-
   & img {
     max-width: 100%;
   }
