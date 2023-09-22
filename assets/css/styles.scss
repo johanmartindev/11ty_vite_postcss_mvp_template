@@ -50,6 +50,7 @@ SOFTWARE.
   --width-card: 16rem;
   --width-card-medium: 20rem;
   --width-card-wide: 25rem;
+  --width-card-side-wide: 40rem;
   --width-content: 70rem;
 }
 
@@ -381,29 +382,60 @@ svg {
 /* Cards */
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--width-card), 1fr));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(auto, var(--width-card-wide))
+  );
+  gap: 1rem;
 
-  & header {
-    padding-top: 0;
-    width: 100%;
-  }
-
-  & img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  & div {
+  & .card {
+    display: flex;
     border: 1px solid var(--color-bg-secondary);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow) var(--color-shadow);
-    margin: 1rem;
-    padding: 1.25rem;
-    width: var(--width-card);
+    padding: 1rem;
+    width: var(--width-card-wide);
+    flex-direction: column;
+    justify-content: flex-start;
+
+    & h3 {
+      display: flex;
+      margin: 0;
+    }
+
+    & figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      border: 1px solid var(--color-secondary-accent);
+      border-radius: var(--border-radius);
+    }
+
+    & img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    & .card-body {
+      display: flex;
+      flex: 1 1 auto;
+      gap: 0.5rem;
+      flex-direction: column;
+    }
+
+    & .card-actions {
+      justify-content: flex-end;
+    }
   }
 
-  & div:hover {
+  .card:hover {
     box-shadow: var(--box-shadow) var(--color-bg-secondary);
+  }
+
+  & .card-side {
+    width: var(--width-card-side-wide);
+    flex-direction: row;
   }
 }
 
