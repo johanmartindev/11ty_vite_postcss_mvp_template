@@ -21,7 +21,7 @@
     "postcss-preset-env": "^9.1.4",
     "prettier": "^3.0.3",
     "sass": "^1.68.0",
-    "stylelint": "^15.6.2",
+    "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0"
   },
   "browserslist": [
