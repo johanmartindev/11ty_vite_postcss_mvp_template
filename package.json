@@ -20,7 +20,7 @@
     "postcss": "^8.4.31",
     "postcss-preset-env": "^9.1.4",
     "prettier": "^3.0.3",
-    "sass": "^1.69.0",
+    "sass": "^1.69.3",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0"
   },
