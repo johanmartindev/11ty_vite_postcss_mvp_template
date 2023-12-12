@@ -21,6 +21,34 @@
 
 ## List of basic components to builds
 
+- Window
+
+  - container window
+  - browser window
+  - child window - Pop-up window
+  - message window - dialog box
+  - Tabs
+
+* https://en.wikipedia.org/wiki/Graphical_widget
+
+- Icons
+- Generic widgets
+
+  - Button - click to perform an action
+    - Radio Button - select one option from a list
+    - Checkbox - enable or disable
+    - Toggle switch - similar to checkbox
+    - Toggle button - similar to switch
+    - Split button - button and dropdown list
+    - Cycle button - cycle content
+  - Slider - control with handle
+  - List box - select one or more options from a list
+  - Spinner - up/down buttons to step through a list of values
+  - Drop-down list - show items when button or indicator is clicked
+  - Menu
+    - context menu - contents depends on context or state
+    - Pie menu - circular context menu
+
 - Input
   - Form
     - Dropdowns
