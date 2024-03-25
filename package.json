@@ -16,7 +16,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-vite": "^4.0.0",
-    "cssnano": "^6.1.0",
+    "cssnano": "^6.1.1",
     "postcss": "^8.4.35",
     "postcss-preset-env": "^9.5.0",
     "prettier": "^3.2.5",
