@@ -15,7 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-vite": "^4.0.0",
+    "@11ty/eleventy-plugin-vite": "^5.0.2",
     "cssnano": "^7.0.6",
     "postcss": "^8.4.47",
     "postcss-preset-env": "^10.1.1",
