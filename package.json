@@ -17,7 +17,7 @@
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-vite": "^5.0.2",
     "cssnano": "^7.0.6",
-    "postcss": "^8.4.47",
+    "postcss": "^8.4.49",
     "postcss-preset-env": "^10.1.1",
     "prettier": "^3.3.3",
     "sass": "^1.82.0",
