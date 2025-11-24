@@ -14,7 +14,7 @@
   "author": "Johan Martin",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-vite": "^6.0.0",
     "cssnano": "^7.0.6",
     "postcss": "^8.5.2",
