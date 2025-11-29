@@ -10,8 +10,14 @@
 
 - 11ty - https://www.11ty.dev
 - CSS Framework - https://andybrewer.github.io/mvp/
-- PostCSS - postcss-preset-env - https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env
-  - https://github.com/browserslist/browserslist
+
+### CSS and SASS
+
+- https://lightningcss.dev/
+- https://lifeofdev.com/running-sass-vite-project/
+- https://css-tricks.com/compiling-css-with-vite-and-lightning-css/
+
+- https://github.com/browserslist/browserslist
 
 ### Eleventy Configuration
 
@@ -22,7 +28,6 @@
 ## List of basic components to builds
 
 - Window
-
   - container window
   - browser window
   - child window - Pop-up window
@@ -33,7 +38,6 @@
 
 - Icons
 - Generic widgets
-
   - Button - click to perform an action
     - Radio Button - select one option from a list
     - Checkbox - enable or disable
@@ -62,7 +66,6 @@
   - Loader
   - Modal
 - Output
-
   - Notifications
   - Breadcrumbs
   - Icons
@@ -81,9 +84,3 @@
   - Sidebar
   - Search Field
   - Tooltip
-
-
-## SASS
-* https://lifeofdev.com/running-sass-vite-project/
-
-* https://lifeofdev.com/running-sass-vite-project/
